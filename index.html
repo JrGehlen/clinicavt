@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/petlife2.png" type="image/x-icon">
+    <title>Portifólio</title>
+    <style>
+        @font-face {
+            font-family: OldLondonAlt;
+            src: url(fonte/OldLondonAlternate.ttf) format(TrueType);
+        }
+        nav > a{
+            background-color:rgb(141, 64, 20);
+            padding: auto;
+            border-radius: 5px;
+            margin: 2px;
+            color: black;
+            text-decoration: none;
+        }
+        nav>a:hover{
+        
+            color: #F7CDB7;
+            font-weight: bold;
+        }
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background-image: linear-gradient(to bottom, #F7CDB7,rgb(131, 83, 56));
+            background-attachment: fixed;
+        }
+        h1{
+            font-family: 'OldLondonAlt';    
+        }
+        section > img{
+            padding: auto;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px rgb(141, 64, 20) ;
+        }
+        div > a{
+            text-decoration: none;
+            color: black;
+        }
+        div > a:hover{
+            text-decoration: underline;
+            color: lightgreen;
+            font-weight: bolder;
+        }
+        a img{
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px rgb(141, 64, 20) ;
+        }
+        p{
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img src="img/petlife2.png" alt="logo petlife2"> 
+        </a>
+                             
+                         <!-- adicionando # antes do atributo, navega em sessões dentro da página  -->
+        <nav> 
+        <a href="#inicio">1 Início</a> 
+        <a href="#clinica">2 Clínica</a> 
+        <a href="#farmacia">3 Farmácia</a> 
+        <a href="#duvidas">4 Dúvidas</a> 
+        </nav><hr>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <img src="img/images.jpg" alt="Pet-Lovers" width="580" height="580">
+
+             <div>
+                <h1>1 Garanta uma vida longa cheia de alegria para seu melhor amigo!</h1>
+                <p>A PetLife é seu refúgio de confiança para o cuidado completo do seu Pet. Com profissionais dedicados e serviços abragentes, oferecemos uma experiência acolhedora e personalizada, garantindo o bem-estar, a saúde e a felicidade dos seus animais de estimação.</p>
+                &#x1F408; <a href="https://wa.me/5551997992887" target="_blank">Marque uma consulta (falar com Ivanor)</a>  <br><!--whatsapp-->
+
+                &#x1F436; <a href="#clinica">Conheça nossa Clínica</a>
+             </div>
+
+        </section>
+        <section id="clinica">
+                <h2>2 Cuidado veterinário de qualidade</h2>
+        </section>
+        <section id="farmacia">
+            <h2>3 Encontre toda linha de medicamentos para os cuidados de seu Pet.</h2>
+    </section>
+    <section id="duvidas">
+        <h2>4 Dúvidas, contate nossos canais, atendimento imediato !</h2>
+</section>
+    </main>
+</body>
+</html>
